@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<head>
+    <title>Game center</title>
+    <link rel="image" type="image/jpg" href="F1.jpg">
+<style>
+
+    .container{
+      display: flex;
+      height : 550px;
+      width : 900px;
+      margin: auto;
+      margin-top: 100px;
+      border-radius: 25px;
+    }
+    .form{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        background-color: rgba(255, 255, 255, 0.95);
+        width : 400px;
+        margin-left: 0px;
+        border-radius: 0 40px 40px 0;
+    }
+    .box{ 
+        background-color: rgb(222, 222, 222);
+        margin: 10px;
+        height: 25px;
+        width: 250px;
+        border-radius: 20px;
+        padding: 10px;
+        border: rgb(255, 255, 255);
+        font-family: "Libre Baskerville", serif;
+        font-size: 14px;
+        font-weight: 400;
+        font-style: italic;
+    }
+    .form img{
+        margin-top : 50px;
+    }
+    .form h2{
+        margin-top : 30px;
+       margin-bottom: 20px;
+       font-size: 30px;
+       color: rgb(255, 0, 0);
+       font-family: "Libre Baskerville", serif;
+       font-weight: 700;
+       font-style: normal;
+    }
+    .form button{
+        width: 100px;
+        height: 40px;
+        margin: 20px;
+        cursor: pointer;
+        background-color: rgb(255, 0, 0);
+        border-radius: 20px;
+        border: none;
+        color: rgba(255, 255, 255, 1);
+        font-family: "Libre Baskerville", serif;
+        font-weight: 400;
+        font-style: normal;
+    }
+    .form button:hover{
+        background-color: rgb(255, 170, 208);
+    }
+    .form button:active{
+        background-color: brown;
+    }
+    .form a{
+        color: rgb(255, 0, 0);
+        text-decoration: none;
+        font-family: "Libre Baskerville", serif;
+        font-weight: 400;
+        font-style: italic;
+    }
+    .form a:hover{
+        color: rgb(255, 170, 208);
+        text-decoration: none;
+        font-family: "Libre Baskerville", serif;
+        font-weight: 400;
+        font-style: normal;
+    }
+    .form a:active{
+        color:orange;
+        text-decoration: none;
+        font-family: "Libre Baskerville", serif;
+        font-weight: 400;
+        font-style: normal;
+    }
+    .side{
+        background-color: rgb(255, 170, 208 ,0.95);
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        width : 600px;
+        border-radius: 40px 0 0 40px;
+    }
+    .side h1{
+        margin-top: 45px;
+        color: rgb(255, 255, 255);
+        font-family: "Libre Baskerville", serif;
+        font-size: 33px;
+        font-weight: 700;
+        font-style: normal;
+    }
+    .side img{
+        align-items: center;
+        margin-top: 5px;
+        border-radius: 180px;
+    }
+
+    /* .side h3{
+        padding: 0px;
+        color:white;
+        font-family: "Libre Baskerville", serif;
+        font-size: 20px;
+        font-weight: 700;
+        font-style: italic;
+    } */
+    .side h4{
+        margin-top: 50px;
+        align-items: center;
+        padding: 0px;
+        color:rgb(255, 64, 64);
+        font-family: "Libre Baskerville", serif;
+        font-size: 20px;
+        font-weight: 700;
+        font-style: italic;
+        
+    }
+    /* .landing {
+        background-color: #ffffff ;
+        background-image: url(https://i.pinimg.com/originals/0f/d3/0e/0fd30e265d57ffc988573fc068ab2b4e.jpg); 
+        background-position: center;
+        background-size: contain;
+        background-repeat: no-repeat;
+    } */
+</style>
+</head>
+<body background="https://i.pinimg.com/originals/0f/d3/0e/0fd30e265d57ffc988573fc068ab2b4e.jpg"> 
+    <!-- <img src="https://i.pinimg.com/originals/0f/d3/0e/0fd30e265d57ffc988573fc068ab2b4e.jpg" > -->
+    <div class="container">
+        <div class="side">
+            <h1>Welcome to Flower Store </h1><br>
+            <img src="https://i.pinimg.com/564x/7b/a3/f4/7ba3f484f0f0c1df64db141c34273694.jpg" width="300px" >
+            <!-- <h3>Would you like to get a bouquet of flowers ?</h3> -->
+            <h4>There are flowers for you.</h4>
+        </div>
+        <form action="" class="form" >
+            <img src="https://i.pinimg.com/originals/d7/ce/2e/d7ce2e83c4dacb47b965c8a1cd8a848d.png" width="200px" >
+            <h2>SIGN  IN</h2>
+            <input type="email" name="email" class="box" placeholder="   Enter Username or Email">
+            <input type="password" name="password" class="box" placeholder="   Enter Password">
+            <button>Login</button>
+            <a href="" target="_blank" >Don't have an account?</a><br>
+            <a href="" target="_blank" >Forgot password?</a>
+         </form>
+    </div>
+</body>
+</html>
